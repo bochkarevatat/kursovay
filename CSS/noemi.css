@@ -178,7 +178,7 @@ html {
 .card-mountain {
     position: relative;
     z-index: 0;
-    background-image: url("/img/trend3.jpg");
+    background-image: url("img/trend3.jpg");
     background-position: center;
     background-repeat: no-repeat;
 
@@ -188,7 +188,7 @@ html {
 .card-limone {
     position: relative;
     z-index: 0;
-    background-image: url("/img/trend4.jpg");
+    background-image: url("img/trend4.jpg");
     background-position: center;
     background-repeat: no-repeat;
 
