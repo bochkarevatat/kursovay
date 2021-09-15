@@ -210,7 +210,6 @@ html {
 }
 
 .card-border {
-    flex-grow: 1;
     padding: 30px 0 30px 25px;
     border: .3rem solid #b59f5b;
     margin-bottom: 1rem;
