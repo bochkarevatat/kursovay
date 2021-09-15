@@ -253,7 +253,7 @@ html {
     top: 0;
     left: 0;
     z-index: 100;
-    display: none;
+    display: none; 
 }
 
 .popup-body {
@@ -276,7 +276,7 @@ html {
 
 .off-popup {
     position: fixed;
-    background-image: url("svg/form-x.svg");
+    background-image: url("../svg/form-x.svg");
     background-color: rgb(0, 0, 0, 0);
     border-color: rgb(0, 0, 0, 0);
     background-repeat: no-repeat;
@@ -325,7 +325,7 @@ html {
     position: relative;
     display: inline-block;
     background-color: #f4f7f6;
-    background-image: url("svg/form-arrows.svg");
+    background-image: url("../svg/form-arrows.svg");
     background-repeat: no-repeat;
     background-position: bottom 15px right 15px;
     background-size: 1rem;
@@ -414,6 +414,7 @@ html {
     font-size: 1.4rem;
     color: #fff;
     margin-top: 3rem;
+    cursor: pointer;
 }
 
 .button-select:hover {
@@ -812,7 +813,7 @@ html {
 }
 
 .contener-shop {
-    position: relative;
+    position: relative; 
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -820,13 +821,14 @@ html {
     max-width: 117rem;
     max-height: 42.2rem;
 
-    align-items: stretch;
+    
 }
 
 .card-shop {
+    
     width: 33%;
-    padding: 0 33px 0;
-    vertical-align: middle;
+    padding: 0 33px;
+    
 }
 
 .images-shop {
@@ -834,10 +836,13 @@ html {
 }
 
 .text-shop {
+    display: flex;
+    flex-direction: column; 
+    justify-content: stretch;
     outline: .3rem solid #c0ae78;
     outline-offset: 3rem;
-    max-height: 25rem;
-
+    flex-grow: 1;
+    
 }
 
 .title-content {
@@ -858,7 +863,7 @@ html {
     font-family: Open Sans Regular, Arial, sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
-
+    
 }
 
 .video-here {
@@ -878,8 +883,8 @@ html {
 }
 
 .price3 {
-    padding-bottom: 27px;
-}
+    padding-bottom: 26px;
+} 
 
 .price-nominal {
     text-decoration: line-through;
@@ -909,7 +914,7 @@ html {
     width: 14rem;
     height: 4.5rem;
     cursor: pointer;
-
+    
 }
 
 /* footer */
