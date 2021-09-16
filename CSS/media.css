@@ -1,0 +1,20 @@
+@media (min-width: 641px) and (max-width: 1199px) and (orientation : portrait) {
+    .contener-trend {
+                flex-wrap: wrap; 
+    }
+    .card-trend {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        flex-basis: 49%;
+        padding: auto;
+    }
+
+    .card-shop {
+        width: 49%;
+    }
+
+    .header-menu {
+        display: none;
+    }
+}
