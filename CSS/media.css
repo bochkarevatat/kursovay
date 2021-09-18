@@ -1,26 +1,26 @@
-@media (min-width: 641px) and (max-width: 1199px) and (orientation : portrait) {
+@media (min-width: 641px) and (max-width: 1199px),
+(orientation : portrait) {
     html {
         font-size: 50%;
-    
-        }
-        .banner{
-            width: 100%; 
-        }
-    .contener-trend {
-        flex-wrap: wrap;
+
     }
 
-    .card-trend {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: start;
-        width: 49%;
-        padding: auto;
+    body {
+        min-width: 100%;
     }
 
-    .card-shop {
-        width: 50%;
+    .banner {
+        min-width: 100%;
     }
+
+    .header-logo {
+        margin-left: 3rem;
+        width: 15rem;
+
+    }
+
+
+
 
     .header-menu-list {
         display: none;
@@ -38,11 +38,14 @@
         cursor: pointer;
         margin-right: 3rem;
     }
-    .menu__button::before{
+
+    .menu__button::before {
 
         top: 0;
     }
-    .menu__button:before, .menu__button::after{
+
+    .menu__button:before,
+    .menu__button::after {
         content: "";
         width: 100%;
         height: 20%;
@@ -52,34 +55,94 @@
         left: 0;
 
     }
-    .menu__button-label{
+
+    .menu__button-label {
         width: 100%;
-    height: 20%;
-    margin-top: -0.1em;
-    border-radius: 5px;
-    background-color: #ffffff;
-    position: absolute;
-    left: 0;
-    top: 50%;
+        height: 20%;
+        margin-top: -0.1em;
+        border-radius: 5px;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0;
+        top: 50%;
 
     }
-    .menu__button::after{
+
+    .menu__button::after {
         bottom: 0;
     }
-    .menu__button:before, .menu__button::after{
+
+    .menu__button:before,
+    .menu__button::after {
         content: "";
-    width: 100%;
-    height: 20%;
-    border-radius: 5px;
-    background-color: #ffffff;
-    position: absolute;
-    left: 0;
-    } 
-    .site-field{
-        max-width: 39.7rem;
+        width: 100%;
+        height: 20%;
+        border-radius: 5px;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0;
     }
-    .side-bar{
-    max-width: 272px;
-    flex-shrink: 0;
+
+    .header-title {
+        font-size: 4rem;
+    }
+
+    .contener-trend {
+        flex-wrap: wrap;
+    }
+
+    .card-trend {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        width: 49.5%;
+        padding: auto;
+    }
+
+    .site-field {
+        max-width: 134rem;
+        margin: 0 3.5rem;
+
+    }
+
+    .post-list {
+        max-width: 60%;
+    }
+
+    .item {
+        flex-wrap: wrap;
+    }
+
+    .picture {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .item-text {
+        margin: 0;
+        width: 100%;
+    }
+
+    .hang-title {
+        font-size: 1.5rem;
+    }
+
+    .side-bar {
+        max-width: 27rem;
+        /* flex-shrink: 0; */
+    }
+
+    .contener-shop {
+        flex-wrap: wrap;
+
+
+    }
+
+    .card-shop {
+        width: 50%;
+    }
+
+    .card-shop:nth-last-child(1) {
+        margin-top: 4rem;
     }
 }
