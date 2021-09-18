@@ -1,20 +1,85 @@
 @media (min-width: 641px) and (max-width: 1199px) and (orientation : portrait) {
+    html {
+        font-size: 50%;
+    
+        }
+        .banner{
+            width: 100%; 
+        }
     .contener-trend {
-                flex-wrap: wrap; 
+        flex-wrap: wrap;
     }
+
     .card-trend {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: start;
-        flex-basis: 49%;
+        width: 49%;
         padding: auto;
     }
 
     .card-shop {
-        width: 49%;
+        width: 50%;
     }
 
-    .header-menu {
+    .header-menu-list {
         display: none;
+    }
+
+    .menu__button {
+        width: 1.4em;
+        height: 1em;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        font-size: 25px;
+        position: relative;
+        text-indent: -9999px;
+        cursor: pointer;
+        margin-right: 3rem;
+    }
+    .menu__button::before{
+
+        top: 0;
+    }
+    .menu__button:before, .menu__button::after{
+        content: "";
+        width: 100%;
+        height: 20%;
+        border-radius: 5px;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0;
+
+    }
+    .menu__button-label{
+        width: 100%;
+    height: 20%;
+    margin-top: -0.1em;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+
+    }
+    .menu__button::after{
+        bottom: 0;
+    }
+    .menu__button:before, .menu__button::after{
+        content: "";
+    width: 100%;
+    height: 20%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    } 
+    .site-field{
+        max-width: 39.7rem;
+    }
+    .side-bar{
+    max-width: 272px;
+    flex-shrink: 0;
     }
 }
