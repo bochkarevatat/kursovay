@@ -22,9 +22,6 @@
 
     }
 
-
-
-
     .header-menu-list {
         display: none;
     }
@@ -43,7 +40,6 @@
     }
 
     .menu__button::before {
-
         top: 0;
     }
 
@@ -136,7 +132,7 @@
 
     .side-bar {
         max-width: 27rem;
-        /* flex-shrink: 0; */
+        
     }
 
     .contener-shop {
@@ -144,13 +140,15 @@
 
 
     }
-
+.our-shop{
+    margin: 0 3.5rem;
+}
     .card-shop {
-        width: 50%;
+        width: 49%;
     }
 
     .card-shop:nth-last-child(1) {
-        margin-top: 4rem;
+        margin: 5rem 0;
     }
 }
 
