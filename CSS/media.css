@@ -1,7 +1,9 @@
+/* Для устройств с шириной экрана, попадающей в диапазон от 641px до 1200px */
+
 @media (min-width: 641px) and (max-width: 1199px),
 (orientation : portrait) {
     html {
-        font-size: 50%;
+        font-size: 62.5%;
 
     }
 
@@ -11,6 +13,7 @@
 
     .banner {
         min-width: 100%;
+        background-image: url("../img/banner-bg-tablet.jpg");
     }
 
     .header-logo {
@@ -87,6 +90,10 @@
         font-size: 4rem;
     }
 
+    .header-title-mobile {
+        display: none;
+    }
+
     .contener-trend {
         flex-wrap: wrap;
     }
@@ -144,5 +151,166 @@
 
     .card-shop:nth-last-child(1) {
         margin-top: 4rem;
+    }
+}
+
+/* Для устройств с шириной экрана от 640px и меньше */
+
+@media (max-width: 640px) {
+
+    body {
+        min-width: 100%;
+    }
+
+    .banner {
+        min-width: 100%;
+        padding: 30px 15px;
+        background-image: url("../img/banner-mobile.jpg");
+        /* background-position: center left; */
+    }
+
+    .logo-menu-container {
+        flex-direction: column-reverse;
+        align-content: flex-start;
+    }
+
+    .header-logo {
+        margin-left: 3rem;
+        margin-top: 8.6rem;
+        width: 27.5rem;
+
+    }
+
+    .header-menu {
+        justify-content: flex-end;
+    }
+
+    .header-menu-list {
+        display: none;
+    }
+
+    .menu__button {
+        width: 2em;
+        height: 1em;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        font-size: 25px;
+        position: relative;
+        text-indent: -9999px;
+        cursor: pointer;
+        justify-self: flex-end;
+        margin-right: 0;
+    }
+
+    .header-title {
+        display: none;
+    }
+
+    .title {
+        text-align: center;
+        margin-bottom: 18.8rem;
+    }
+
+    .header-title-mobile {
+        display: initial;
+        font-size: 2.6rem;
+        position: relative;
+        z-index: 2;
+        font-family: Open Sans Bold, Arial, sans-serif;
+        line-height: 1.7;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+
+    }
+
+    .card-trend {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        width: 100%;
+        margin: 0.2rem 0;
+    }
+
+    .main-field {
+        max-width: 100%;
+        padding: 0 12px;
+    }
+
+    .site-field {
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+
+    .post-list {
+        max-width: 100%;
+    }
+
+    .item-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .hang-title {
+        font-size: 1.6rem;
+    }
+
+    .text {
+        font-size: 1.4rem;
+    }
+
+    .side-bar {
+        max-width: 100%;
+    }
+
+    .aside-title-h3 {
+        font-size: 1.6rem;
+    }
+
+    .field {
+
+        width: 35rem;
+    }
+
+    .field-subscribe {
+        width: 100%;
+    }
+
+    .button-subscribe {
+        width: 100%;
+    }
+
+
+    .list-tags {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .list-form {
+        margin-bottom: 3rem;
+    }
+
+    .tags-form {
+        padding: 7px 14px;
+
+    }
+
+    .our-shop {
+        margin: 0 1.5rem
+    }
+
+
+
+    .card-shop {
+        width: 100%;
+        margin-bottom: 3.6rem;
+    }
+
+    .card-shop:nth-last-child(1) {
+        margin-top: 0;
     }
 }
