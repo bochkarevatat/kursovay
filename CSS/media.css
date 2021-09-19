@@ -166,23 +166,24 @@
         min-width: 100%;
         padding: 30px 15px;
         background-image: url("../img/banner-mobile.jpg");
-        /* background-position: center left; */
+        
     }
 
     .logo-menu-container {
         flex-direction: column-reverse;
-        align-content: flex-start;
+        
     }
 
     .header-logo {
-        margin-left: 3rem;
-        margin-top: 8.6rem;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 8.6rem; 
         width: 27.5rem;
-
+        text-align: center;
     }
 
     .header-menu {
-        justify-content: flex-end;
+        justify-content: flex-end; 
     }
 
     .header-menu-list {
