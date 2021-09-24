@@ -165,7 +165,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    width: 38rem;
+    width: 25%;
     padding: 152px 16px 0px 16px;
     margin-bottom: 1rem;
     margin-right: .3rem;
@@ -465,16 +465,17 @@ body {
 .main-field {
 
     padding-top: 64px;
-    max-width: 120rem;
-
+    /* max-width: 120rem; */
+    /* margin: 0 auto; */
 }
 
 .site-field {
     /* position: relative; */
     display: flex;
     margin: 0 auto;
-    justify-content: space-between;
-    max-width: 117rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* max-width: 120rem; */
 
 }
 
@@ -653,7 +654,7 @@ body {
 }
 
 .field {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     width: 22rem;
     height: 4.9rem;
     background-color: #f4f7f6;
@@ -810,11 +811,12 @@ body {
 
 /* shop */
 .our-shop {
-    padding-top: 6.5rem;
-    margin-bottom: 6.5rem;
+    margin: 6.5rem 0;
+
 }
 
 .title-shops {
+
     text-align: center;
     color: #000;
     font-family: Open Sans Bold, Arial, sans-serif;
@@ -839,18 +841,19 @@ body {
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
     flex-wrap: nowrap;
     max-width: 117rem;
-    /* max-height: 42.2rem;
-    min-height: 44rem; */
+
 }
 
 .card-shop {
 
-    width: 32%;
+    width: 33%;
+    margin: 0 2rem;
+}
+
+.picture-shop {
     padding: 0 19px;
-    /* width: 34.5rem; */
 }
 
 .images-shop {
@@ -860,11 +863,13 @@ body {
 .text-shop {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
-    outline: .3rem solid #c0ae78;
-    outline-offset: 2rem;
-    flex-grow: 1;
+    padding: 0 19px;
+    outline: #c0ae78 solid .3rem;
+    outline-offset: 1rem;
+    flex-grow: 2;
     height: 20rem;
+    margin-top: -1rem;
+
 }
 
 .title-content {
